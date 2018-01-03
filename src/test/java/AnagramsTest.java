@@ -38,7 +38,7 @@ public class AnagramsTest {
     @Test
     public void multiples_returnStringOnMultipleArgsAndThreeAnogramGroups_met_etm_mte_tem_cat_tac_abcd_cabd_bdac() throws Exception {
         Anagrams anagrams = new Anagrams();
-        String expected = "met etm mte tem cat tac abcd cabd bdac";
+        String expected = "bdac abcd cabd cat tac top pot tpo tem met etm mte";
         assertEquals(expected, anagrams.multiple("bdac cat top tac tem abcd pot met carrot etm mte tpo cabd"));
     }
 }

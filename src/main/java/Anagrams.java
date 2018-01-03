@@ -55,7 +55,7 @@ public class Anagrams {
 
                 }
             }
-            //stringResult += " | ";
+//            stringResult += " | ";
             //break;
         }
         return stringResult.trim();
